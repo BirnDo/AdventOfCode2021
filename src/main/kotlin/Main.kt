@@ -1,8 +1,14 @@
 fun main() {
-    //Test before Day 1
-    print("Pre-Advent Test")
+    // Test before Day 1
+    // print("Pre-Advent Test")
 
-    //@ToDo Day 1
+    // Day 1
+    // finding depth increases by comparing every depth and by comparing a three depth sliding window
+    var filename = "src/main/resources/Day1.txt"
+    val depths = Day1.readDepths(filename)
+    println("--- Day 1 ------------------------------")
+    println("Number of increases for depth: " + Day1.findNumIncreases(depths))
+    println("Number of increases for depth windows: " + Day1.findNumIncreasedWindow(depths))
 
     //@ToDo Day 2
 
