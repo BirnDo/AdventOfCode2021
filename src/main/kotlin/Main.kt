@@ -1,3 +1,6 @@
+/**
+ * @author Dominik Birngruber
+ */
 fun main() {
     // Test before Day 1
     // print("Pre-Advent Test")
@@ -10,7 +13,15 @@ fun main() {
     println("Number of increases for depth: " + Day1.findNumIncreases(depths))
     println("Number of increases for depth windows: " + Day1.findNumIncreasedWindow(depths))
 
-    //@ToDo Day 2
+    //Day 2
+    // exectuing the given commands for the submarine
+    filename = "src/main/resources/Day2.txt"
+    val commands = Day2.readDirections(filename)
+    println()
+    println("--- Day 2 ------------------------------")
+    println("Multiple of horizontal and vertical after executing commands: " + Day2.executeCommands(commands))
+    println("Multiple of horizontal and vertical after using aim and executing commands: "
+            + Day2.executeCommandsByAim(commands))
 
     //@ToDo Day 3
 

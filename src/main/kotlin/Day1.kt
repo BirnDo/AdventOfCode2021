@@ -1,10 +1,12 @@
+/**
+ * @author Dominik Birngruber
+ */
 import java.io.File
 
 class Day1 {
     companion object {
         /**
          * Reads all depths of a given file, where each line has a single Integer for the depth
-         * @author Dominik Birngruber
          * @param filename Name of the file to read
          * @return List of depths
          */
@@ -16,7 +18,6 @@ class Day1 {
 
         /**
          * Finds the number of depth increases
-         * @author Dominik Birngruber
          * @param depths List of all depths
          * @return number of depth increases
          */
@@ -33,7 +34,6 @@ class Day1 {
 
         /**
          * Finds the number of depth increases by comparing a three measurement sliding window of depths
-         * @author Dominik Birngruber
          * @param depths List of all depths
          * @return number of depth increases
          */
