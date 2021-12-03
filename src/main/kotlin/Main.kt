@@ -7,23 +7,27 @@ fun main() {
 
     // Day 1
     // finding depth increases by comparing every depth and by comparing a three depth sliding window
-    var filename = "src/main/resources/Day1.txt"
-    val depths = Day1.readDepths(filename)
+    val depths = Day1.readDepths("src/main/resources/Day1.txt")
     println("--- Day 1 ------------------------------")
     println("Number of increases for depth: " + Day1.findNumIncreases(depths))
     println("Number of increases for depth windows: " + Day1.findNumIncreasedWindow(depths))
 
-    //Day 2
-    // exectuing the given commands for the submarine
-    filename = "src/main/resources/Day2.txt"
-    val commands = Day2.readDirections(filename)
+    // Day 2
+    // executing the given commands for the submarine
+    val commands = Day2.readDirections("src/main/resources/Day2.txt")
     println()
     println("--- Day 2 ------------------------------")
     println("Multiple of horizontal and vertical after executing commands: " + Day2.executeCommands(commands))
     println("Multiple of horizontal and vertical after using aim and executing commands: "
             + Day2.executeCommandsByAim(commands))
 
-    //@ToDo Day 3
+    // Day 3
+    // checking the maintenance data from the submarine
+    val binaryData = Day3.readBinaryData("src/main/resources/Day3.txt")
+    println()
+    println("--- Day 3 ------------------------------")
+    println("Power consumption: " + Day3.calculateConsumption(binaryData))
+    println("life support rating: " + Day3.findLifeSupportRating(binaryData))
 
     //@ToDo Day 4
 

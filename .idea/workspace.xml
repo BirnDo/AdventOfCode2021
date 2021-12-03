@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #2&#10;&#10;Finished the puzzle of Day 1 and added JavaDoc for it">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+    <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #3&#10;&#10;Finished the puzzle of Day 2 and added JavaDoc for it">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestRes.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638384102294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="closes #3&#10;&#10;Finished the puzzle of Day 2 and added JavaDoc for it">
+      <created>1638445004513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638445004513</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated .gitignore">
+      <created>1638445040625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638445040625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="closes #1&#10;&#10;Created project structure and set up first Test" />
     <MESSAGE value="closes #2&#10;&#10;Finished the puzzle of Day 1 and added JavaDoc for it" />
-    <option name="LAST_COMMIT_MESSAGE" value="closes #2&#10;&#10;Finished the puzzle of Day 1 and added JavaDoc for it" />
+    <MESSAGE value="closes #3&#10;&#10;Finished the puzzle of Day 2 and added JavaDoc for it" />
+    <MESSAGE value="updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
   </component>
 </project>
