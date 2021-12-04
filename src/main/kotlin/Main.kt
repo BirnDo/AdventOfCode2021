@@ -29,7 +29,14 @@ fun main() {
     println("Power consumption: " + Day3.calculateConsumption(binaryData))
     println("life support rating: " + Day3.findLifeSupportRating(binaryData))
 
-    //@ToDo Day 4
+    // Day 4
+    // winning or losing bingo against a squid
+    var bingoGame = Day4.readGameInput("src/main/resources/Day4.txt")
+    println()
+    println("--- Day 4 ------------------------------")
+    println("Score of winning board: " + Day4.solveBingoGame(bingoGame))
+    bingoGame = Day4.readGameInput("src/main/resources/Day4.txt")
+    println("Score of losing board: " + Day4.findLosingGame(bingoGame))
 
     //@ToDo Day 5
 

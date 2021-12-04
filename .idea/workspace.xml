@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #3&#10;&#10;Finished the puzzle of Day 2 and added JavaDoc for it">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day3.txt" afterDir="false" />
+    <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638445040625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location">
+      <created>1638527195687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638527195687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +139,7 @@
     <MESSAGE value="closes #2&#10;&#10;Finished the puzzle of Day 1 and added JavaDoc for it" />
     <MESSAGE value="closes #3&#10;&#10;Finished the puzzle of Day 2 and added JavaDoc for it" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location" />
+    <option name="LAST_COMMIT_MESSAGE" value="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location" />
   </component>
 </project>
