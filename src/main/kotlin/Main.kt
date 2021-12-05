@@ -38,8 +38,13 @@ fun main() {
     bingoGame = Day4.readGameInput("src/main/resources/Day4.txt")
     println("Score of losing board: " + Day4.findLosingGame(bingoGame))
 
-    //@ToDo Day 5
-
+    // Day 5
+    // finding dangerous vent zones
+    val segments = Day5.readSegments("src/main/resources/Day5.txt")
+    println()
+    println("--- Day 5 ------------------------------")
+    println("Number of dangerous zones with vertical and horizontal vent lines: " + Day5.findDangerZonesHorVer(segments))
+    println("Number of dangerous zones with all vent lines: " + Day5.findAllDangerZones(segments))
     //@ToDo Day 6
 
     //@ToDo Day 7

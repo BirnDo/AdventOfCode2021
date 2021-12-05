@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day4.txt" afterDir="false" />
+    <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #6&#10;&#10;Finished the puzzle of Day 5 and added JavaDoc for it">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -38,6 +39,9 @@
         <option name="url" value="https://github.com/BirnDo/AdventOfCode2021.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21Y0qrIXoiydxGBTlI4HAPWaCTt" />
   <component name="ProjectViewState">
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638527195687</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="closes #5&#10;&#10;Finished the puzzle of Day 4 and added JavaDoc for it">
+      <created>1638625149167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638625149167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +143,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="closes #1&#10;&#10;Created project structure and set up first Test" />
@@ -140,6 +150,8 @@
     <MESSAGE value="closes #3&#10;&#10;Finished the puzzle of Day 2 and added JavaDoc for it" />
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location" />
-    <option name="LAST_COMMIT_MESSAGE" value="closes #4&#10;&#10;Finished the puzzle of Day 3 and added JavaDoc for it&#10;fixed a tying error in a comment for Day 2 and deleted the extra variable for the file location" />
+    <MESSAGE value="closes #5&#10;&#10;Finished the puzzle of Day 4 and added JavaDoc for it" />
+    <MESSAGE value="closes #6&#10;&#10;Finished the puzzle of Day 5 and added JavaDoc for it" />
+    <option name="LAST_COMMIT_MESSAGE" value="closes #6&#10;&#10;Finished the puzzle of Day 5 and added JavaDoc for it" />
   </component>
 </project>
