@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ef8b27-2fdf-43f3-8bf3-5d2390c6b4af" name="Changes" comment="closes #6&#10;&#10;Finished the puzzle of Day 5 and added JavaDoc for it">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Day5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638625149167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="closes #6&#10;&#10;Finished the puzzle of Day 5 and added JavaDoc for it">
+      <created>1638714643669</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638714643669</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

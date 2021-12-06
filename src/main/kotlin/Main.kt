@@ -45,7 +45,14 @@ fun main() {
     println("--- Day 5 ------------------------------")
     println("Number of dangerous zones with vertical and horizontal vent lines: " + Day5.findDangerZonesHorVer(segments))
     println("Number of dangerous zones with all vent lines: " + Day5.findAllDangerZones(segments))
-    //@ToDo Day 6
+
+    // Day 6
+    // Fining the number of angler-fish after a given time
+    val startPopulation = Day6.readPopulation("src/main/resources/Day6.txt")
+    println()
+    println("--- Day 6 ------------------------------")
+    println("Population after 80 days: " + Day6.calculatePopulation80Days(startPopulation))
+    println("Population after 256 days: " + Day6.calculatePopulation256Days(startPopulation))
 
     //@ToDo Day 7
 
