@@ -54,7 +54,12 @@ fun main() {
     println("Population after 80 days: " + Day6.calculatePopulation80Days(startPopulation))
     println("Population after 256 days: " + Day6.calculatePopulation256Days(startPopulation))
 
-    //@ToDo Day 7
+    // Day 7
+    val positions = Day7.readPositions("src/main/resources/Day7.txt")
+    println()
+    println("--- Day 7 ------------------------------")
+    println("Fuel cost linear: " + Day7.alignCrabsLinear(positions))
+    println("Final fuel cost: " + Day7.alignCrabs(positions))
 
     //@ToDo Day 8
 
