@@ -61,7 +61,12 @@ fun main() {
     println("Fuel cost linear: " + Day7.alignCrabsLinear(positions))
     println("Final fuel cost: " + Day7.alignCrabs(positions))
 
-    //@ToDo Day 8
+    // Day 8
+    val entries = Day8.readEntries("src/main/resources/Day8.txt")
+    println()
+    println("--- Day 8 ------------------------------")
+    println("Easy digits found: " + Day8.findEasyDigits(entries))
+    println("Sum of all digits: " + "Could not finish part 2")
 
     //@ToDo Day 9
 
