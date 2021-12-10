@@ -68,7 +68,12 @@ fun main() {
     println("Easy digits found: " + Day8.findEasyDigits(entries))
     println("Sum of all digits: " + "Could not finish part 2")
 
-    //@ToDo Day 9
+    // Day 9
+    var system = Day9.readCaveSystem("src/main/resources/Day9.txt")
+    println()
+    println("--- Day 9 ------------------------------")
+    println("Risk level of the cave system: " + Day9.calculateRiskLevel(system))
+    println("Multiple of basin sizes: " + "Could not finish part 2")
 
     //@ToDo Day 10
 
